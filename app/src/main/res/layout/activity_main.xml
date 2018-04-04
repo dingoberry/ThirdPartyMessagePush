@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="push.optimizer.dx.op.mixpushdemo.MainActivity">
+
+    <Button
+        android:id="@+id/action_huawei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="execHuawei"
+        android:text="@string/enable_huawei_push"/>
+
+    <TextView
+        android:id="@+id/content_imei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <EditText
+        android:id="@+id/e1"
+        app:layout_constraintTop_toBottomOf="@id/action_huawei"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/e2"
+        app:layout_constraintTop_toBottomOf="@id/e1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/e3"
+        app:layout_constraintTop_toBottomOf="@id/e2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/e4"
+        app:layout_constraintTop_toBottomOf="@id/e3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/e5"
+        app:layout_constraintTop_toBottomOf="@id/e4"
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="40dp" />
+
+</android.support.constraint.ConstraintLayout>
