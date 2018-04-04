@@ -1,1 +1,1 @@
-# ThirdPartyMessagePush
+小米、魅族和华为消息推送SDK整合备录
