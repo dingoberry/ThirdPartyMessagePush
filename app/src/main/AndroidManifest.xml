@@ -267,5 +267,4 @@
             android:process=":dxopt"
             android:exported="false"/>
     </application>
-
 </manifest>
